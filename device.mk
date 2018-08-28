@@ -65,3 +65,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/land/land-vendor.mk)
 # Launcher3
 PRODUCT_PACKAGES += \
     Launcher3QuickStep
+
+# Camera app
+PRODUCT_PACKAGES += \
+     MGC
