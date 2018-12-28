@@ -61,3 +61,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/land/land-vendor.mk)
+
+# Launcher3
+PRODUCT_PACKAGES += \
+    Launcher3QuickStep
